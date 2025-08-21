@@ -3,9 +3,9 @@ import { Users, Target, Award, BookOpen } from "lucide-react";
 
 const About = () => {
   const stats = [
-    { icon: <Users className="h-8 w-8" />, number: "500+", label: "Participants Expected" },
+    { icon: <Users className="h-8 w-8" />, number: "1000+", label: "Participants Expected" },
     { icon: <Target className="h-8 w-8" />, number: "50+", label: "Challenges" },
-    { icon: <Award className="h-8 w-8" />, number: "$5,000", label: "Prize Pool" },
+    { icon: <Award className="h-8 w-8" />, number: "₹50,000", label: "Prize Pool" },
     { icon: <BookOpen className="h-8 w-8" />, number: "6", label: "Categories" },
   ];
 
@@ -15,11 +15,11 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="bg-gradient-primary bg-clip-text text-transparent">ACM CTF</span>
+              About <span className="bg-gradient-primary bg-clip-text text-transparent">National CTF 2025</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              The ACM Student Chapter presents the annual Capture The Flag competition, 
-              bringing together the brightest cybersecurity minds from colleges nationwide.
+              The ACM Student Chapter presents the National Level Cybersecurity CTF Competition 2025, 
+              bringing together the brightest cybersecurity minds from colleges across India.
             </p>
           </div>
 

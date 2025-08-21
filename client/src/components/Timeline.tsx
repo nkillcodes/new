@@ -5,66 +5,66 @@ import { Calendar, Clock, MapPin, Users } from "lucide-react";
 const Timeline = () => {
   const events = [
     {
-      date: "February 15",
+      date: "August 1",
       time: "00:00",
       title: "Registration Opens",
-      description: "Team registration begins. Early bird discounts available.",
+      description: "Team registration begins for National Level CTF Competition.",
       icon: <Users className="h-5 w-5" />,
-      status: "completed"
-    },
-    {
-      date: "March 1",
-      time: "18:00",
-      title: "Registration Workshop",
-      description: "Learn about CTF basics and team formation strategies.",
-      icon: <MapPin className="h-5 w-5" />,
-      status: "completed"
-    },
-    {
-      date: "March 5",
-      time: "12:00",
-      title: "Platform Testing",
-      description: "Test the competition platform and submit practice challenges.",
-      icon: <Clock className="h-5 w-5" />,
       status: "upcoming"
     },
     {
-      date: "March 10",
+      date: "September 1",
+      time: "18:00",
+      title: "Registration Workshop",
+      description: "Learn about CTF basics, categories, and team formation strategies.",
+      icon: <MapPin className="h-5 w-5" />,
+      status: "upcoming"
+    },
+    {
+      date: "September 15",
       time: "23:59",
       title: "Registration Deadline",
-      description: "Final deadline for team registration and payment.",
+      description: "Final deadline for team registration and qualification.",
       icon: <Calendar className="h-5 w-5" />,
       status: "critical"
     },
     {
-      date: "March 12",
-      time: "19:00",
-      title: "Opening Ceremony",
-      description: "Welcome address, rules briefing, and Q&A session.",
+      date: "September 19",
+      time: "00:00",
+      title: "Online Qualifiers Begin",
+      description: "24-hour online qualification round starts. All registered teams participate.",
+      icon: <Clock className="h-5 w-5" />,
+      status: "upcoming"
+    },
+    {
+      date: "September 20",
+      time: "23:59",
+      title: "Online Qualifiers End",
+      description: "24-hour online qualification round concludes. Top 10 teams advance.",
+      icon: <Clock className="h-5 w-5" />,
+      status: "upcoming"
+    },
+    {
+      date: "September 22",
+      time: "18:00",
+      title: "Qualifier Results",
+      description: "Top 10 teams announced for the offline grand finale.",
       icon: <Users className="h-5 w-5" />,
       status: "upcoming"
     },
     {
-      date: "March 15",
+      date: "September 26",
       time: "09:00",
-      title: "Competition Begins",
-      description: "CTF competition officially starts. Good luck!",
+      title: "Grand Finale",
+      description: "8-hour offline competition for top 10 teams. Final challenge begins!",
       icon: <Clock className="h-5 w-5" />,
       status: "upcoming"
     },
     {
-      date: "March 16",
-      time: "09:00",
-      title: "Competition Ends",
-      description: "24-hour competition period concludes. Final submissions due.",
-      icon: <Clock className="h-5 w-5" />,
-      status: "upcoming"
-    },
-    {
-      date: "March 16",
-      time: "15:00",
+      date: "September 26",
+      time: "18:00",
       title: "Results & Awards",
-      description: "Winner announcement, prize distribution, and closing ceremony.",
+      description: "Winner announcement, prize distribution worth ₹50,000, and closing ceremony.",
       icon: <Calendar className="h-5 w-5" />,
       status: "upcoming"
     }

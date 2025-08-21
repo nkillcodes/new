@@ -13,7 +13,7 @@ const CTFEvent = () => {
     },
     {
       icon: <Globe className="h-8 w-8" />,
-      title: "Web Exploitation",
+      title: "Web Security",
       description: "Find vulnerabilities in web applications and services",
       difficulty: "Easy",
       points: "50-300"
@@ -26,13 +26,6 @@ const CTFEvent = () => {
       points: "200-800"
     },
     {
-      icon: <Search className="h-8 w-8" />,
-      title: "Forensics",
-      description: "Analyze digital evidence and recover hidden data",
-      difficulty: "Medium",
-      points: "100-400"
-    },
-    {
       icon: <Puzzle className="h-8 w-8" />,
       title: "Reverse Engineering",
       description: "Analyze and understand compiled programs",
@@ -40,9 +33,16 @@ const CTFEvent = () => {
       points: "150-600"
     },
     {
+      icon: <Search className="h-8 w-8" />,
+      title: "Steganography",
+      description: "Find hidden messages and data in digital media",
+      difficulty: "Medium",
+      points: "100-400"
+    },
+    {
       icon: <Shield className="h-8 w-8" />,
-      title: "Miscellaneous",
-      description: "Various security challenges and brain teasers",
+      title: "OSINT",
+      description: "Open Source Intelligence gathering and analysis",
       difficulty: "Mixed",
       points: "50-400"
     }

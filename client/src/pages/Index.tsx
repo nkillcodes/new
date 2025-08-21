@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import RegistrationBanner from "@/components/RegistrationBanner";
 import CTFEvent from "@/components/CTFEvent";
 import About from "@/components/About";
+import Prizes from "@/components/Prizes";
 import Rules from "@/components/Rules";
 import Timeline from "@/components/Timeline";
 import FAQ from "@/components/FAQ";
@@ -17,6 +18,7 @@ const Index = () => {
         <Hero />
         <CTFEvent />
         <About />
+        <Prizes />
         <Rules />
         <Timeline />
         <FAQ />

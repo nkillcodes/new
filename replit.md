@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a full-stack web application for the ACM CTF (Capture The Flag) Championship 2024. It serves as the main landing page and information portal for a cybersecurity competition targeting college students. The application provides comprehensive information about the competition including categories, rules, timeline, FAQ, and registration details. It features a modern cybersecurity-themed design with dark colors, neon accents, and interactive components to create an engaging user experience for potential participants.
+This is a full-stack web application for the National Level Cybersecurity CTF Competition 2025. It serves as the main landing page and information portal for a national cybersecurity competition targeting college students across India. The application provides comprehensive information about the two-phase competition (online qualifiers and offline grand finale), categories, rules, timeline, FAQ, prizes worth ₹50,000, and registration details. It features a modern cybersecurity-themed design with dark colors, neon accents, and interactive components to create an engaging user experience for potential participants.
 
 ## User Preferences
 
@@ -13,7 +13,7 @@ Preferred communication style: Simple, everyday language.
 ### Frontend Architecture
 - **React + TypeScript**: Modern component-based UI built with React 18 and TypeScript for type safety
 - **Vite Build System**: Fast development server and optimized production builds
-- **Single Page Application**: Client-side routing using React Router for seamless navigation
+- **Single Page Application**: Client-side routing using Wouter for seamless navigation
 - **Component Library**: Extensive use of shadcn/ui components built on Radix UI primitives
 - **Styling Framework**: Tailwind CSS with custom cybersecurity theme including dark backgrounds, neon colors (cyber-green, cyber-blue), and HSL color system
 - **State Management**: TanStack React Query for server state management and caching

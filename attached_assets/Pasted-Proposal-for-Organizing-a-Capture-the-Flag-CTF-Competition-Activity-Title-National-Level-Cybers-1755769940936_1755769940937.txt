@@ -1,0 +1,74 @@
+Proposal for Organizing a Capture the Flag (CTF) Competition
+Activity Title:
+National Level Cybersecurity Capture the Flag (CTF) Competition
+Objective:
+The primary objective of this activity is to promote cybersecurity awareness, hands-on skill development, and problem-solving ability among students and security enthusiasts. By engaging in challenges such as binary exploitation, reverse engineering, web security, steganography, cryptography, and OSINT, participants will strengthen their practical knowledge and teamwork capabilities. The event also aims to build a competitive yet collaborative ecosystem where students can interact with industry experts and gain exposure to real-world cybersecurity practices.
+Deliverables from the Activity:
+1.	A two-phase CTF competition:
+
+○	Online Qualifiers (24 hours): 19th–20th September 2025
+
+○	Offline Grand Finale (Top 10 Teams- 8 hrs): 26th September 2025
+
+2.	Distribution of prizes worth ₹50,000 along with exclusive training vouchers:
+
+○	1st Prize: ₹25,000 + CRTP voucher from Altered Security
+
+○	2nd Prize: ₹15,000 + OffSec training voucher
+
+○	3rd Prize: ₹10,000 + gift vouchers
+
+3.	Hands-on cybersecurity challenges across multiple categories.
+
+4.	Opportunity for participants to network with industry professionals, mentors, and sponsors.
+
+5.	A comprehensive post-event report highlighting participation metrics, results, and media coverage.
+
+
+
+Activity Collaborators:
+●	ACM Student Chapter
+
+●	Sponsors – Altered Security, Offsec
+
+●	Faculty mentors from the Department of Computer Science 
+
+●	External partners (Altered Security, OffSec, etc.)
+
+Endorsements for the Proposed Activity Are From:
+●	The Northcap University
+
+●	Department of Computer Science & Engineering / Information Technology
+
+●	Industry Collaborators & Sponsors (e.g., Altered Security, OffSec, other security companies)
+
+●	Cybersecurity experts and mentors associated with the event
+
+Activity Publicity Plan:
+●	Pre-event awareness campaign through official college social media handles, LinkedIn, Instagram, Twitter, and Discord communities.
+
+●	Outreach via cybersecurity forums, CTFtime.org, and college networks across India.
+
+●	Poster campaigns within the college and affiliated institutions.
+
+●	Collaboration with sponsors to feature their brand in digital/print promotions, event website, and challenge platforms.
+
+●	Post-event highlights with write-ups, photos, and media coverage to showcase impact.
+
+Activity Start and End Dates:
+●	Online CTF (24-hour Qualifier): 19-20th September 2025
+
+●	Offline Grand Finale (Top 10 Teams): 26th September 2025
+
+Branding Benefits for Partnering Companies:
+●	Talent Identification: Companies can directly interact with and identify top cybersecurity talent for internships and job opportunities.
+
+●	Brand Visibility: Sponsor logos will be featured in all event promotions (banners, posters, social media, event website, and during live event sessions).
+
+●	Community Engagement: Associating with the CTF demonstrates the company’s commitment to fostering cybersecurity awareness and education.
+
+●	Product/Service Promotion: Sponsors can showcase tools, platforms, or training programs to a wide student and professional audience.
+
+●	Long-Term Impact: The event will generate positive publicity and strengthen the company’s reputation as a thought leader in the cybersecurity domain.
+
+
