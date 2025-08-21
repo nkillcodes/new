@@ -1,0 +1,110 @@
+📌 Updated Website Content
+🏠 Home
+
+Title:
+National Level Cybersecurity Capture the Flag (CTF) Competition
+
+Tagline:
+“Unleash your hacking skills. Compete. Learn. Win.”
+
+Highlights:
+
+Online Qualifiers: 19–20 Sept 2025 (24 hours)
+
+Offline Grand Finale (Top 10 teams): 26 Sept 2025 (8 hours)
+
+Prizes worth ₹50,000
+
+Registration Fee: ₹400
+
+Hosted by ACM Student Chapter, The NorthCap University
+
+Sponsored by Altered Security & OffSec
+
+Call-to-Action:
+👉 Register Now (button)
+
+🕹️ CTF Event
+
+Objective:
+The competition aims to promote cybersecurity awareness, hands-on skill development, and problem-solving among students and enthusiasts. Participants will face real-world inspired challenges across:
+
+Binary Exploitation
+
+Reverse Engineering
+
+Web Security
+
+Cryptography
+
+Steganography
+
+OSINT
+
+Why Join?
+
+Learn from industry experts
+
+Network with cybersecurity professionals & peers
+
+Experience real-world cybersecurity practices
+
+Compete at a national level
+
+ℹ️ About
+
+Organized by ACM Student Chapter
+
+Collaborators: Faculty mentors, Altered Security, OffSec, and cybersecurity experts
+
+Endorsed by The NorthCap University and Department of CSE/IT
+
+The event is designed to create a competitive yet collaborative ecosystem that encourages learning, innovation, and industry exposure.
+
+📜 Rules
+
+Team size: (decide: solo / 2–4 members)
+
+Participants must pay the ₹400 registration fee before the deadline.
+
+Online Qualifier: 24-hour format (teams can participate remotely).
+
+Top 10 teams from Qualifiers advance to the Offline Grand Finale.
+
+Use of unauthorized tools, scripts, or unethical practices will result in disqualification.
+
+Decisions by organizers/judges are final.
+
+🗓️ Timeline
+
+Online Qualifiers (24 Hours): 19–20 September 2025
+
+Offline Grand Finale (8 Hours): 26 September 2025
+
+Prize Distribution & Networking Session: After the finale
+
+❓ FAQ
+
+Q1. Who can participate?
+Any student or cybersecurity enthusiast from across India can join.
+
+Q2. Is there a participation fee?
+Yes. The registration fee is ₹400 (per team/participant).
+
+Q3. What do winners get?
+Prizes worth ₹50,000 including:
+
+🥇 1st Prize: ₹25,000 + CRTP voucher (Altered Security)
+
+🥈 2nd Prize: ₹15,000 + OffSec training voucher
+
+🥉 3rd Prize: ₹10,000 + gift vouchers
+
+Q4. How do I register?
+Via the registration button (link to Google Form / CTFd platform).
+
+Q5. How will the event be conducted?
+
+Online Qualifier (remote)
+
+Offline Finale at The NorthCap University

@@ -22,7 +22,7 @@ const Navigation = () => {
           <div className="flex items-center space-x-2">
             <Shield className="h-8 w-8 text-primary" />
             <span className="text-xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              ACM CTF 2024
+              National CTF 2025
             </span>
           </div>
 
@@ -40,7 +40,8 @@ const Navigation = () => {
             <Button 
               variant="default" 
               className="bg-gradient-primary hover:shadow-glow-cyber transition-all duration-300"
-              onClick={() => window.open('#register', '_blank')}
+              onClick={() => window.open('https://forms.google.com/register-ctf', '_blank')}
+              data-testid="nav-register-button"
             >
               Register Now
             </Button>

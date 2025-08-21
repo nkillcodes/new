@@ -15,12 +15,23 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About <span className="bg-gradient-primary bg-clip-text text-transparent">National CTF 2025</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">ℹ️ About</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              The ACM Student Chapter presents the National Level Cybersecurity CTF Competition 2025, 
-              bringing together the brightest cybersecurity minds from colleges across India.
-            </p>
+            <div className="max-w-4xl mx-auto text-left">
+              <div className="mb-8">
+                <p className="text-xl text-muted-foreground mb-4">
+                  <span className="font-semibold text-primary">Organized by ACM Student Chapter</span>
+                </p>
+                <div className="space-y-2 text-muted-foreground">
+                  <p><strong>Collaborators:</strong> Faculty mentors, Altered Security, OffSec, and cybersecurity experts</p>
+                  <p><strong>Endorsed by:</strong> The NorthCap University and Department of CSE/IT</p>
+                </div>
+              </div>
+              <p className="text-lg text-muted-foreground">
+                The event is designed to create a competitive yet collaborative ecosystem that encourages learning, 
+                innovation, and industry exposure.
+              </p>
+            </div>
           </div>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">

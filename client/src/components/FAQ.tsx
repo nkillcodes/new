@@ -6,44 +6,24 @@ import { MessageCircle, Mail } from "lucide-react";
 const FAQ = () => {
   const faqs = [
     {
-      question: "Who can participate in the CTF?",
-      answer: "Any currently enrolled college or university student can participate. You need to provide proof of enrollment during registration. Both undergraduate and graduate students are welcome."
+      question: "Q1. Who can participate?",
+      answer: "Any student or cybersecurity enthusiast from across India can join."
     },
     {
-      question: "How do I form a team?",
-      answer: "Teams can have 1-4 members. You can register as an individual and we'll help match you with other participants, or register as a complete team. Mixed teams from different colleges are allowed and encouraged."
+      question: "Q2. Is there a participation fee?",
+      answer: "Yes. The registration fee is ₹400 (per team/participant)."
     },
     {
-      question: "What should I bring to the competition?",
-      answer: "Bring your laptop with a stable internet connection, chargers, and any development tools you prefer. We'll provide power outlets, WiFi, and basic refreshments. The competition is entirely online, so no special hardware is required."
+      question: "Q3. What do winners get?",
+      answer: "Prizes worth ₹50,000 including:\n🥇 1st Prize: ₹25,000 + CRTP voucher (Altered Security)\n🥈 2nd Prize: ₹15,000 + OffSec training voucher\n🥉 3rd Prize: ₹10,000 + gift vouchers"
     },
     {
-      question: "Do I need prior CTF experience?",
-      answer: "No prior experience is required! We have challenges ranging from beginner to advanced levels. We also provide pre-competition workshops and resources to help newcomers get started."
+      question: "Q4. How do I register?",
+      answer: "Via the registration button (link to Google Form / CTFd platform)."
     },
     {
-      question: "What's the registration fee?",
-      answer: "Registration is $25 per person for early birds (before March 1) and $35 per person after that. This covers competition materials, refreshments, and administrative costs. Scholarships are available for students who need financial assistance."
-    },
-    {
-      question: "Can I participate remotely?",
-      answer: "Yes! This is a hybrid competition. You can participate either in-person at our main venue or remotely from anywhere. Remote participants have access to the same challenges and support as in-person attendees."
-    },
-    {
-      question: "What are the prizes?",
-      answer: "We have a $5,000+ prize pool! 1st place receives $2,000, 2nd place gets $1,500, 3rd place gets $1,000, plus additional category-specific prizes and sponsor awards. All participants receive certificates."
-    },
-    {
-      question: "How is scoring calculated?",
-      answer: "Points are awarded based on challenge difficulty and solve order. Earlier solves get slightly more points. Using hints reduces the available points for that challenge. The team with the highest total points wins."
-    },
-    {
-      question: "What if I get stuck on a challenge?",
-      answer: "Each challenge has a hint system available at the cost of some points. We also have mentors available during the competition to provide guidance without giving away solutions. Our Discord channel is active for general questions."
-    },
-    {
-      question: "When will results be announced?",
-      answer: "Preliminary results will be available immediately after the competition ends. Final results, after verification and any appeals, will be announced during the closing ceremony on March 16th at 3:00 PM."
+      question: "Q5. How will the event be conducted?",
+      answer: "• Online Qualifier (remote)\n• Offline Finale at The NorthCap University"
     }
   ];
 
@@ -53,7 +33,7 @@ const FAQ = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Frequently Asked <span className="bg-gradient-primary bg-clip-text text-transparent">Questions</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent">❓ FAQ</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Got questions about the competition? Find answers to the most common questions below. 
@@ -64,62 +44,47 @@ const FAQ = () => {
           <Card className="bg-gradient-card border-border/50 p-6 mb-8">
             <Accordion type="single" collapsible className="space-y-4">
               {faqs.map((faq, index) => (
-                <AccordionItem key={index} value={`item-${index}`} className="border border-border/30 rounded-lg px-4 bg-background/50">
+                <AccordionItem key={index} value={`item-${index}`} className="border border-border/30 rounded-lg px-4 bg-background/50" data-testid={`faq-item-${index}`}>
                   <AccordionTrigger className="text-left hover:text-primary transition-colors duration-200 py-4">
                     <span className="font-medium">{faq.question}</span>
                   </AccordionTrigger>
                   <AccordionContent className="pb-4 text-muted-foreground leading-relaxed">
-                    {faq.answer}
+                    <div className="whitespace-pre-line">{faq.answer}</div>
                   </AccordionContent>
                 </AccordionItem>
               ))}
             </Accordion>
           </Card>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <Card className="bg-gradient-card border-border/50 p-6 text-center hover:shadow-glow-accent transition-all duration-300">
-              <MessageCircle className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-4">Join Our Discord</h3>
+          {/* Contact Section */}
+          <Card className="bg-gradient-card border-border/50 p-8">
+            <div className="text-center">
+              <h3 className="text-2xl font-bold mb-6 text-primary">Still Have Questions?</h3>
               <p className="text-muted-foreground mb-6">
-                Connect with other participants, get real-time updates, and ask questions 
-                in our active Discord community.
-              </p>
-              <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                Join Discord Server
-              </Button>
-            </Card>
-
-            <Card className="bg-gradient-card border-border/50 p-6 text-center hover:shadow-glow-accent transition-all duration-300">
-              <Mail className="h-12 w-12 text-primary mx-auto mb-4" />
-              <h3 className="text-xl font-bold mb-4">Email Support</h3>
-              <p className="text-muted-foreground mb-6">
-                Have a specific question or need direct assistance? 
-                Send us an email and we'll get back to you within 24 hours.
-              </p>
-              <Button variant="outline" className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                Send Email
-              </Button>
-            </Card>
-          </div>
-
-          <div className="mt-12 text-center">
-            <Card className="bg-gradient-card border-border/50 p-8">
-              <h3 className="text-2xl font-bold mb-4">Still Have Questions?</h3>
-              <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-                Our team is here to help! Whether you're curious about the competition format, 
-                need technical assistance, or want to learn more about sponsorship opportunities, 
-                we're just a message away.
+                Our team is here to help! Reach out through any of these channels for quick responses.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button className="bg-gradient-primary hover:shadow-glow-cyber transition-all duration-300">
-                  Contact Organizers
+                <Button 
+                  variant="outline" 
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={() => window.open('mailto:ctf@thenorthcap.edu', '_blank')}
+                  data-testid="button-contact-email"
+                >
+                  <Mail className="h-4 w-4 mr-2" />
+                  Email Us
                 </Button>
-                <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
-                  Schedule a Call
+                <Button 
+                  variant="outline"
+                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+                  onClick={() => window.open('https://discord.gg/ctf-competition', '_blank')}
+                  data-testid="button-contact-discord"
+                >
+                  <MessageCircle className="h-4 w-4 mr-2" />
+                  Join Discord
                 </Button>
               </div>
-            </Card>
-          </div>
+            </div>
+          </Card>
         </div>
       </div>
     </section>

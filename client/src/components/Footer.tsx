@@ -3,10 +3,10 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   const socialLinks = [
-    { icon: <Twitter className="h-5 w-5" />, href: "#", label: "Twitter" },
-    { icon: <Github className="h-5 w-5" />, href: "#", label: "GitHub" },
-    { icon: <Linkedin className="h-5 w-5" />, href: "#", label: "LinkedIn" },
-    { icon: <MessageCircle className="h-5 w-5" />, href: "#", label: "Discord" }
+    { icon: <Twitter className="h-5 w-5" />, href: "https://twitter.com/acm_northcap", label: "Twitter" },
+    { icon: <Github className="h-5 w-5" />, href: "https://github.com/acm-tnu", label: "GitHub" },
+    { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/company/acm-tnu", label: "LinkedIn" },
+    { icon: <MessageCircle className="h-5 w-5" />, href: "https://discord.gg/ctf-competition", label: "Discord" }
   ];
 
   const quickLinks = [
@@ -17,8 +17,8 @@ const Footer = () => {
   ];
 
   const contactInfo = [
-    { icon: <Mail className="h-5 w-5" />, text: "ctf@acm-chapter.org" },
-    { icon: <MessageCircle className="h-5 w-5" />, text: "Discord: ACM CTF 2024" }
+    { icon: <Mail className="h-5 w-5" />, text: "ctf@thenorthcap.edu" },
+    { icon: <MessageCircle className="h-5 w-5" />, text: "Discord: National CTF 2025" }
   ];
 
   return (
@@ -30,13 +30,13 @@ const Footer = () => {
             <div className="flex items-center space-x-2 mb-6">
               <Shield className="h-8 w-8 text-primary" />
               <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-                ACM CTF 2024
+                National CTF 2025
               </span>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md">
-              Join the ultimate cybersecurity competition for college students. 
-              Test your skills, learn new techniques, and compete for amazing prizes 
-              in this 24-hour Capture The Flag challenge.
+              Join the National Level Cybersecurity CTF Competition 2025. 
+              Two-phase competition with ₹50,000 in prizes. 
+              Hosted by ACM Student Chapter, The NorthCap University.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social, index) => (

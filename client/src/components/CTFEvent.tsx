@@ -63,13 +63,37 @@ const CTFEvent = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Challenge Categories
+              🕹️ CTF Event
             </span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Test your skills across multiple cybersecurity domains. Each category offers unique challenges 
-            designed to push your knowledge and problem-solving abilities to the limit.
-          </p>
+          <div className="max-w-4xl mx-auto mb-8">
+            <h3 className="text-2xl font-semibold mb-4 text-primary">Objective</h3>
+            <p className="text-xl text-muted-foreground">
+              The competition aims to promote cybersecurity awareness, hands-on skill development, and problem-solving 
+              among students and enthusiasts. Participants will face real-world inspired challenges across multiple domains.
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto mb-8">
+            <h3 className="text-2xl font-semibold mb-6 text-primary">Why Join?</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
+                <p className="text-muted-foreground">Learn from industry experts</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
+                <p className="text-muted-foreground">Network with cybersecurity professionals & peers</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
+                <p className="text-muted-foreground">Experience real-world cybersecurity practices</p>
+              </div>
+              <div className="flex items-start space-x-3">
+                <div className="w-2 h-2 bg-primary rounded-full mt-3 flex-shrink-0"></div>
+                <p className="text-muted-foreground">Compete at a national level</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
