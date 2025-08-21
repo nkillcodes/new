@@ -118,14 +118,27 @@ The website uses a custom cybersecurity-themed design system with:
 
 ## 🌐 Deployment
 
-The application is designed to work with:
+### Vercel (Recommended) 🚀
+Deploy instantly with Vercel for optimal performance:
 
-- **Replit Deployments** (recommended)
-- **Vercel** 
-- **Netlify**
-- **Traditional VPS hosting**
+1. **GitHub Integration:**
+   ```bash
+   git push origin main
+   ```
+   Then deploy via [vercel.com](https://vercel.com)
 
-For Replit deployment, simply click the "Deploy" button in your Replit workspace.
+2. **Direct CLI:**
+   ```bash
+   npm install -g vercel
+   vercel --prod
+   ```
+
+### Other Platforms
+- **Netlify** - Works out of the box
+- **Replit Deployments** - Click "Deploy" button
+- **Traditional VPS** - Use `npm run build` and serve `dist` folder
+
+**🎯 Vercel provides automatic HTTPS, global CDN, and serverless functions - perfect for a national competition!**
 
 ## 📊 Competition Details
 

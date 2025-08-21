@@ -21,6 +21,10 @@ Key features include:
 - ✅ Updated Navigation and branding to "National CTF 2025"
 - ✅ Modified Registration Banner with ₹400 fee information
 - ✅ All registration buttons now redirect to Google Forms placeholder URL
+- ✅ Fixed button visibility issues with improved CSS contrast
+- ✅ Configured for Vercel deployment with vercel.json and API routes
+- ✅ Created comprehensive deployment documentation
+- ✅ Added .gitignore for proper version control
 
 ## User Preferences
 
