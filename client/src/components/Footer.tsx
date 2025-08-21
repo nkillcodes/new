@@ -86,7 +86,7 @@ const Footer = () => {
             <div className="mt-6">
               <Button 
                 className="bg-gradient-primary hover:shadow-glow-cyber transition-all duration-300 w-full"
-                onClick={() => window.open('#register', '_blank')}
+                onClick={() => window.open('https://forms.google.com/register-ctf', '_blank')}
               >
                 Register Now
               </Button>
@@ -97,7 +97,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="border-t border-border mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-muted-foreground text-sm">
-            © 2024 ACM Student Chapter. All rights reserved.
+            © 2025 ACM Student Chapter, The NorthCap University. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-muted-foreground">
             <a href="#" className="hover:text-primary transition-colors duration-200">
